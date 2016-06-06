@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-pug-to-inferno",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Babel plugin for pug to Inferno",
   "main": "build/index.js",
   "files": [
