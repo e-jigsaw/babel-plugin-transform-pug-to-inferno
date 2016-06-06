@@ -3,6 +3,9 @@
   "version": "0.1.1",
   "description": "Babel plugin for pug to Inferno",
   "main": "build/index.js",
+  "files": [
+    "build/index.js"
+  ],
   "scripts": {
     "build": "babel src -d build",
     "prepublish": "npm run build",
