@@ -20,7 +20,7 @@ module.exports = function () {
           const {ast} = transform(html, {
             plugins: ['inferno']
           })
-          path.replaceWithMultiple([ast])
+          path.replaceWithMultiple(ast.program.body)
         }
       }
     }
